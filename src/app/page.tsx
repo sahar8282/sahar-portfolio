@@ -351,9 +351,9 @@ const Portfolio = () => {
                   <h3 className="text-xl font-semibold text-white">Background</h3>
                 </div>
                 <p className="text-gray-300 leading-relaxed">
-                  I'm a dedicated Frontend Developer from Tehran, Iran, with a passion for creating exceptional digital experiences.
+                  {`I'm a dedicated Frontend Developer from Tehran, Iran, with a passion for creating exceptional digital experiences.
                   With a strong educational background in IT and hands-on professional experience, I specialize in building
-                  modern, responsive web applications.
+                  modern, responsive web applications.`}
                 </p>
               </div>
 
@@ -500,13 +500,13 @@ const Portfolio = () => {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-8 animate-fadeInUp">
             <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-              Let's Work Together
+              {`Let's Work Together`}
             </span>
           </h2>
 
           <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto animate-fadeInUp" style={{ animationDelay: '200ms' }}>
-            I'm always interested in new opportunities and exciting projects.
-            Let's discuss how we can bring your ideas to life!
+            {`I'm always interested in new opportunities and exciting projects.
+            Let's discuss how we can bring your ideas to life!`}
           </p>
 
           <div className="grid md:grid-cols-3 gap-8 mb-12">
